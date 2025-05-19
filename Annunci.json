@@ -1,0 +1,328 @@
+[
+    {
+        "id":1,
+        "name": "Re-Nylon Shoulder bag",
+        "category": "Bags",
+        "price": "1750",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BD/1BD953/RV44F0134/1BD953_RV44_F0134_V_B1M_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color": "brown"
+    },
+    {
+        "id": 2,
+        "name": "Re-Nylon Shoulder bag small",
+        "category": "Bags",
+        "price": "1650",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC167/RV44F0002/1BC167_RV44_F0002_V_B1M_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color": "black"
+    },
+    {
+        "id": 3,
+        "name": "Re-Nylon moon bag",
+        "category": "Bags",
+        "price": "1600",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BH/1BH222/R064F077G/1BH222_R064_F077G_V_NOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color": "green"
+    },
+    {
+        "id": 4,
+        "name": "Leather mini handbag",
+        "category": "Bags",
+        "price": "2350",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA349/2DKVF0QO3/1BA349_2DKV_F0QO3_V_ONO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "white"
+    },
+    {
+        "id": 5,
+        "name": "Leather tote bag",
+        "category": "Bags",
+        "price": "3450",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BG/1BG338/2DKVF03V8/1BG338_2DKV_F03V8_V_ONM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+    },
+    {
+        "id": 6,
+        "name": "Crochet tote bag",
+        "category": "Bags",
+        "price":"1600",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BG/1BG393/2C2TF0018/1BG393_2C2T_F0018_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Viscose",
+        "color": "brown"
+    },
+    {
+        "id": 7,
+        "name": "Crochet and leather tote bag",
+        "category": "Bags",
+        "price": "1950",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BG/1BG499/2M2QF0I55/1BG499_2M2Q_F0I55_V_GOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Viscose, Leather",
+        "color": "multicolor"
+        
+    },
+    {
+        "id": 8,
+        "name": "1978 Re-Nylon backpack",
+        "category": "Bags",
+        "price": "1800",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1BZ/1BZ677/RV44F0FHI/1BZ677_RV44_F0FHI_V_OOM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color": "white"
+    },
+    {
+        "id": 9,
+        "name": "Wallet with shoulder strap",
+        "category": "Leather goods",
+        "price": "890",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1MT/1MT027/2C8VF0046/1MT027_2C8V_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+    },
+    {
+        "id": 10,
+        "name": "Large leather wallet ",
+        "category": "Leather goods",
+        "price": "790",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1ML/1ML506/2BBEF03CW/1ML506_2BBE_F03CW_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+    },
+    {
+        "id": 11,
+        "name": "Saffiano leather card holder",
+        "category": "Leather goods",
+        "price": "700",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1MC/1MC025/QHHF03BH/1MC025_QHH_F03BH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+        
+    },
+    {
+        "id": 12,
+        "name": "small Saffiano leather wallet",
+        "category": "Leather goods",
+        "price": "610",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1ML/1ML050/QHHF0287/1ML050_QHH_F0287_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "yellow"
+    },
+    
+    {
+        "id": 13,
+        "name": "Leather case for iPhone",
+        "category": "Leather goods",
+        "price": "620",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1ZH/1ZH215/2C8VF0046/1ZH215_2C8V_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "multicolor"
+    },
+    {
+        "id": 14,
+        "name": "Saffiano leather cover for iPhone",
+        "category": "Leather goods",
+        "price": "860",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1ZH/1ZH181/2CKRF097W/1ZH181_2CKR_F097W_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "multicolor"
+
+    },
+    {
+        "id": 15,
+        "name": "Embroidered fabric trolley",
+        "category": "Travel",
+        "price": "4300",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/2/2VQ/2VQ005/2F3DF0002/2VQ005_2F3D_F0002_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "black"
+
+    },
+    {
+        "id": 16,
+        "name": "Saffiano leather travel bag",
+        "category": "Travel",
+        "price": "3600",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/2/2VC/2VC018/9Z2F03X0/2VC018_9Z2_F03X0_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+    },
+    {
+        "id": 17,
+        "name": "Saffiano leather trolley",
+        "category": "Travel",
+        "price": "4300",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/2/2VQ/2VQ004/9Z2F03OK/2VQ004_9Z2_F03OK_V_TOK_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+
+    },
+    {
+        "id": 18,
+        "name": "Re-Nylon zipper pouch",
+        "category": "Travel",
+        "price": "660",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/2/2NA/2NA057/2DMIF0002/2NA057_2DMI_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color": "black"
+    },
+    {
+        "id": 19,
+        "name": "Mesh fabric slingback pumps",
+        "category": "Shoes",
+        "price": "930",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1I8/1I891N/099F0002/1I891N_099_F0002_F_075_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "black"
+    },
+
+    {
+        "id": 20,
+        "name": "Satin pumps",
+        "category": "Shoes",
+        "price": "940",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1I4/1I484N/049F0005/1I484N_049_F0005_F_A085_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Viscose, Silk",
+        "color": "brown"
+    },
+    {
+        "id": 21,
+        "name": "Brushed leather pumps",
+        "category": "Shoes",
+        "price": "1150",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1I9/1I963N/055F0377/1I963N_055_F0377_F_D035_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "yellow"
+    },
+    {
+        "id": 22,
+        "name": "Mesh fabric ballerinas ",
+        "category": "Shoes",
+        "price": "820",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1F9/1F915N/099F0002/1F915N_099_F0002_F_005_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "black"
+    },
+    {
+        "id": 23,
+        "name": "Nappa flatform sandals",
+        "category": "Shoes",
+        "price": "990",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/1/1XZ/1XZ777/038F0304/1XZ777_038_F0304_F_045_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "white"
+    },
+    {
+        "id": 24,
+        "name": "Padded nappa leather sandals",
+        "category": "Shoes",
+        "price": "990",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/1/1X7/1X721M/038F0036/1X721M_038_F0036_F_D020_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "brown"
+
+    },
+    {
+        "id": 25,
+        "name": "Crochet sandals",
+        "category": "Shoes",
+        "price": "1100",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/1/1X4/1X440N/2C2TF0002/1X440N_2C2T_F0002_F_020_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Viscose",
+        "color": "black"
+    },
+    {
+        "id": 26,
+        "name": "Heeled leather sandals",
+        "category": "Shoes",
+        "price": "970",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/1/1X5/1X504N/011F0011/1X504N_011_F0011_F_055_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "red"
+    },
+    {
+        "id": 27,
+        "name": "Saffiano patent slides",
+        "category": "Shoes",
+        "price": "770",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1XX/1XX730/3A9SF0002/1XX730_3A9S_F0002_F_010_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Leather",
+        "color": "black"
+    },
+    {
+        "id": 28,
+        "name": "Teddy bag charm",
+        "category": "Accessories",
+        "price": "600",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/1/1TO/1TO044/2A8VF0009/1TO044_2A8V_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Mohair cotton",
+        "color": "multicolor"
+    },
+    {
+        "id": 29,
+        "name": "Pop strings bag charm",
+        "category": "Accessories",
+        "price": "680",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1TT/1TT219/2C7MF04BH/1TT219_2C7M_F04BH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Mohair cotton",
+        "color": "multicolor"
+        
+
+    },
+    
+    {
+        "id": 30,
+        "name": "Cotton baseball cap ",
+        "category": "Accessories",
+        "price": "680",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1HC/1HC274/16IFF060M/1HC274_16IF_F060M_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color":"pink"
+    },
+    {
+        "id": 31,
+        "name": "Cotton bucket hat",
+        "category": "Accessories",
+        "price": "720",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/1/1HC/1HC137/16IFF0T5C/1HC137_16IF_F0T5C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Polyamide",
+        "color": "brown"
+    },
+    {
+        "id": 32,
+        "name": "Symbole sunglasses",
+        "category": "Accessories",
+        "price": "380",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/S/SPR/SPRB06/E16KFE08Z/SPRB06_E16K_FE08Z_C_053_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Acetate",
+        "color": "black"
+    },
+    {
+        "id": 33,
+        "name": "Squared sunglasses",
+        "category": "Accessories",
+        "price": "370",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/S/SPR/SPRB05/E23AFE60B/SPRB05_E23A_FE60B_C_053_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Acetate",
+        "color": "brown"
+    },
+    {
+        "id": 34,
+        "name": "Metal plaque sunglasses",
+        "category": "Accessories",
+        "price": "410",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/S/SPR/SPRB53/E5AKFE09Z/SPRB53_E5AK_FE09Z_C_052_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Acetate",
+        "color": "brown"
+    },
+    {
+        "id": 35,
+        "name": "Runway sunglasses",
+        "category": "Accessories",
+        "price": "470",
+        "image" : "https://www.prada.com/content/dam/pradabkg_products/S/SPR/SPRB50/E1ABF03C2/SPRB50_E1AB_F03C2_C_052_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg",
+        "material": "Acetate",
+        "color": "black"
+    }
+]

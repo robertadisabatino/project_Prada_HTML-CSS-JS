@@ -1,0 +1,579 @@
+body{
+    overflow-x: hidden ;
+}
+
+*{
+    font-family: "EB Garamond", serif;
+}
+
+h1,h2,h3,h4, .h1, .h2, .h3, .h4 {
+    font-family: "Prata", serif;
+}
+
+:root {
+    --black:rgb(26, 26, 26);
+    --white:rgb(250,250,250);
+    --gray:#585859;
+}
+
+.tx-black {
+    color: var(--black);
+}
+
+.tx-white {
+    color: var(--white);
+}
+
+.tx-gray {
+    color: var(--gray);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+/* fine impostazioni di base */
+
+/* inizio navbar */
+.navbar {
+    background-color: var(--white);
+}
+
+.bg-scroll {
+    background-color: var(--gray);
+    transition: 0.7s;
+}
+
+.nav-custom {
+    height:120px;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1000;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-link {
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.search-bar-navcustom {
+    width: 500px;
+}
+
+
+/* capire perche non funziona */
+/* .nav-item:hover{
+border-bottom: 4px solid var(--blu);
+} */
+
+.fa-solid {
+    font-size: 20px;
+    color: var(--black);
+}
+
+
+
+/* fine navbar */
+
+/* inizio header */
+
+.header-custom {
+    min-height: 100vh;
+    margin-top: 120px;
+    background: linear-gradient(rgba(250,250,250,0.2), rgba(26,26,26,0.5)), url(./media/headerPic2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.link-explore {
+    
+    text-decoration: none;
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--white);
+}
+
+.link-explore:hover {
+    border-bottom: 2px solid var(--gray);
+    
+}
+
+.title-custom{
+    font-size: 40px;
+}
+
+.main-titles-custom {
+    margin-left: 20px;
+}
+
+/* fine header */
+
+
+/* inizio main */
+
+.img-main {
+    width:500px;
+    height:400px;
+}
+
+.containerMain-custom {
+    min-height: 80vh;
+    border-bottom: 1px solid var(--gray);
+}
+
+.rowMain-custom {
+    min-height: 80vh;
+}
+
+.containerMain-custom2 {
+    min-height: 50vh;
+}
+
+.rowMain-custom2 {
+    min-height: 50vh;
+}
+
+.main-p{
+    font-size: 22px;
+}
+
+.link-findOut {
+    width:200px;
+    padding: 0%;
+    
+}
+
+.borsa {
+    min-height: 400px;
+    min-width: 600px;
+}
+
+.containerMain-custom3 {
+    min-height: 35vh;
+}
+
+.rowMain-custom3 {
+    min-height: 35vh;
+}
+
+.col-tx-borsa{
+    border: 1px solid var(--gray);
+    padding: 50px 0px;
+    
+}
+
+/* sezione counter */
+.sustainability-p {
+    font-size: 23px;
+}
+
+.sustainability-n{
+    font-size: 60px;
+}
+
+.sustainability-section{
+    height: 100vh;
+    background:linear-gradient(rgba(250,250,250,0.5), rgba(26,26,26,0.3)), url(./media/sfondoSustainability.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.col-counter-custom{
+    padding:30px;
+}
+
+/* sezione subscribe */
+
+.card {
+    min-width: 700px;
+    height: 314px;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    
+}
+
+.card > * {
+    margin: 0;
+}
+
+.card__title {
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.card__content {
+    font-size: 19px;
+    color: var(--white);
+    letter-spacing: 1px;
+    
+}
+
+.card__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 10px;
+    border: 1px solid var(--black);
+    color: black;
+    width: 300px;
+}
+
+.card__form button {
+    border: 0;
+    background: transparent;
+    border: 1px solid var(--white);
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.sign-up:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+} 
+
+/* fine main */
+
+
+/* inizio footer */
+.link-footer{
+    text-decoration: none;
+    
+    color: var(--gray);
+}
+
+.form-footer{
+    width: 40%;
+}
+/* fine footer */
+
+
+/* media queries */
+
+@media screen and (max-width:1023px) {
+    /* navbar */
+    .nav-link {
+        margin-left: 15px;
+        
+    }
+
+    .nav-link:hover {
+        border-bottom: 1px solid transparent;
+    }
+    
+    .search-bar-navcustom {
+        width: 100%;
+        max-width: 500px;
+        margin-left: 10px;
+    }
+    
+    #logo {
+        margin-left: 10px;
+    }
+    
+    .nav-link {
+        margin-left: 10px;
+    }
+    
+    /* header */
+    .header-custom{
+        background-position-x: -400px ;
+        
+    }
+
+    .main-titles-custom{
+        margin-left: 0px;
+        
+    }
+    
+
+    /* main */
+
+    /* 4 immagini  */
+    .img-main {
+        width:300px;
+        height:200px;
+    }
+
+    .link-findOut{
+        margin-right: 0px;
+    }
+
+    /* sezione borsa */
+    .borsa {
+        min-height: 200px;
+        min-width: 300px;
+    }
+
+
+
+    /* sezione counter */
+    .sustainability-p {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .sustainability-n{
+        font-size: 40px;
+    }
+
+    .col-counter-custom{
+        
+        width: 350px;
+        height: 450px;
+    }
+
+
+    /* sezione subscribe */
+
+    .card {
+        min-width:70px ;
+        height: 200px;
+        padding: 0px;
+        
+        
+    }
+
+    .card__title {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: var(--white);
+    }
+    
+    .card__content {
+        font-size: 12px;
+        color: var(--white);
+        letter-spacing: 1px;
+        
+    }
+
+
+.card__form input {
+    margin-top: 0%;
+    padding: 2px;
+    width: 200px;
+    
+}
+
+.card__form button {
+    border: 0;
+    background: transparent;
+    border: 1px solid var(--white);
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    
+}
+
+/* footer */
+.footer-row{
+    margin-top: 20px;
+}
+}
+
+
+
+/* INIZIO MODIFICHE PAGINA SHOP */
+
+/* inizio header */
+
+.shopHeader {
+    margin-top: 120px;
+    height: 100vh;
+    background: linear-gradient(rgba(26,26,26,0.4), rgba(26,26,26,0.2)), url(./media/pradashop1.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.rowHeader{
+    width: 100%;
+}
+
+/* fine header */
+
+/* inizio main */
+
+/* accordion */
+
+.accordion-button:not(.collapsed){
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content:"";
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23FFFFFF" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>');
+}
+
+.form-check-input:checked{
+background-color: var(--gray);
+border-color: var(--black);
+}
+
+.form-check-input:focus{
+    box-shadow: 0 0 0 .25rem rgba(26, 26, 26, .25)
+
+
+}
+
+.card-custom {
+    height: 550px;
+    width: 20%;
+    border: 1px solid var(--gray);
+    color: var(--black);
+    margin: 10px ;
+}
+
+.card-img-custom{
+    height:500px;
+    width: 100%;
+}
+
+.card-body-custom {
+    border-top: 1px solid var(--gray);
+}
+
+.priceInput{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1px;
+    width: 100%;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    
+}
+
+.priceInput::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background: var(--gray);
+    border-radius: 10px;
+    border: 3px solid var(--white);
+    padding: 2px;
+    cursor: pointer; 
+}
+
+
+/* colors */
+
+#brown{
+    background-color: rgb(125, 80, 15);
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#red{
+    font-size: 23px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#black{
+    background-color:black;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#yellow{
+    background-color: yellow;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#blue{
+    background-color:blue;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#pink{
+    background-color:pink;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#green{
+    background-color:green;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#white{
+    background-color: rgb(241, 234, 234);
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#multicolor {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#all{
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+/* fine main */
+
+/* MEDIA QUERIES SHOP */
+
+@media screen and (max-width:1023px) {
+    .card-custom {
+        height: 400px;
+        width: 20%;
+        border: 1px solid var(--gray);
+        color: var(--black);
+        margin: 10px ;
+    }
+}
