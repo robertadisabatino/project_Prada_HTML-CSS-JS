@@ -14,6 +14,7 @@ h1,h2,h3,h4, .h1, .h2, .h3, .h4 {
     --black:rgb(26, 26, 26);
     --white:rgb(250,250,250);
     --gray:#585859;
+    --blu:rgb(33, 33, 142);
 }
 
 .tx-black {
@@ -276,10 +277,16 @@ border-bottom: 4px solid var(--blu);
 
 
 /* inizio footer */
-.link-footer{
+
+.footer {
+    padding: 20px;
+}
+
+.list-footer{
     text-decoration: none;
-    
+    list-style: none;
     color: var(--gray);
+    margin-left: -30px;
 }
 
 .form-footer{
@@ -287,6 +294,145 @@ border-bottom: 4px solid var(--blu);
 }
 /* fine footer */
 
+
+/* shop inizio */
+
+.card-custom {
+    max-width: 280px;
+    border: 1px solid var(--gray   );
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    margin: 20px;
+}
+
+.card-custom:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-custom {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.card-body-custom {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title-custom {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.card-price-custom {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #777;
+}
+
+.card-btn-custom {
+    margin-top: 1rem;
+    padding: 10px 24px;
+    border-radius: 50px;
+    border: 1px solid #111;
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+    color: #111;
+    font-size: 0.9rem;
+}
+
+.card-btn-custom:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+/* colors */
+
+#brown{
+    background-color: rgb(125, 80, 15);
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#red{
+    font-size: 23px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#black{
+    background-color:black;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#yellow{
+    background-color: yellow;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#blue{
+    background-color:blue;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#pink{
+    background-color:pink;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#green{
+    background-color:green;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#white{
+    background-color: rgb(241, 234, 234);
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#multicolor {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#all{
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+#all2{
+    font-size: 20px;
+    border-radius: 50%;
+    
+}
+
+.labelCategory{
+    font-size: 20px;
+    border-radius: 50%;
+    
+}
+
+/* fine shop */
 
 /* media queries */
 
@@ -363,6 +509,7 @@ border-bottom: 4px solid var(--blu);
         height: 450px;
     }
 
+    
 
     /* sezione subscribe */
 
@@ -406,11 +553,9 @@ border-bottom: 4px solid var(--blu);
     
 }
 
-/* footer */
-.footer-row{
-    margin-top: 20px;
-}
-}
+
+
+
 
 
 
@@ -463,20 +608,65 @@ border-color: var(--black);
 }
 
 .card-custom {
-    height: 550px;
-    width: 20%;
-    border: 1px solid var(--gray);
-    color: var(--black);
-    margin: 10px ;
+    max-width: 280px;
+    border: 1px solid var(--gray   );
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    margin: 20px;
 }
 
-.card-img-custom{
-    height:500px;
+.card-custom:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-custom {
+    height: 380px;
     width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
 }
 
 .card-body-custom {
-    border-top: 1px solid var(--gray);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title-custom {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.card-price-custom {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #777;
+}
+
+.card-btn-custom {
+    margin-top: 1rem;
+    padding: 10px 24px;
+    border-radius: 50px;
+    border: 1px solid #111;
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+    color: #111;
+    font-size: 0.9rem;
+}
+
+.card-btn-custom:hover {
+    background-color: #111;
+    color: #fff;
 }
 
 .priceInput{
@@ -503,77 +693,8 @@ border-color: var(--black);
 }
 
 
-/* colors */
-
-#brown{
-    background-color: rgb(125, 80, 15);
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#red{
-    font-size: 23px;
-    background-color: red;
-    border-radius: 50%;
-}
-
-#black{
-    background-color:black;
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#yellow{
-    background-color: yellow;
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#blue{
-    background-color:blue;
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#pink{
-    background-color:pink;
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#green{
-    background-color:green;
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#white{
-    background-color: rgb(241, 234, 234);
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#multicolor {
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    font-size: 23px;
-    border-radius: 50%;
-}
-
-#all{
-    font-size: 23px;
-    border-radius: 50%;
-}
 
 /* fine main */
 
-/* MEDIA QUERIES SHOP */
 
-@media screen and (max-width:1023px) {
-    .card-custom {
-        height: 400px;
-        width: 20%;
-        border: 1px solid var(--gray);
-        color: var(--black);
-        margin: 10px ;
-    }
-}
+

@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 let div = document.createElement("div");
                 div.classList.add("form-check");
                 div.innerHTML= `
-                        <input class="form-check-input radioCategory" type="radio" name="category" id="${category}" >
-                        <label class="form-check-label" for="${category}">
+                        <input class="form-check-input radioCategory labelCategory" type="radio" name="category" id="${category}" >
+                        <label class="form-check-label " for="${category}">
                         ${category}
                         </label>
             `
@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="card-body card-body-custom text-center">
                         <h5 class="card-title">${annuncio.name}</h5>
                         <p class="card-text">$ ${annuncio.price}</p>
+                        <button class="card-btn-custom">Scopri</button>
                     </div>
             
             
@@ -90,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let checked = Array.from(radios).find((button)=> button.checked );
             
             
-                let categoria = checked ? checked.id : "all";
+            let categoria = checked ? checked.id : "all";
             
             
             if (categoria != "all"){
@@ -196,21 +197,6 @@ document.addEventListener("DOMContentLoaded", () => {
         
         
         
-        // input materiale
-        
-        let materialInput = document.querySelector("#materialInput")
-        
-        materialInput.addEventListener("input", ()=>{
-            globalFilter();
-            
-        })
-        
-        
-        function filterByMaterial(array) {
-            let filtered = array.filter((annuncio)=> annuncio.material.toLowerCase().includes(materialInput.value.toLowerCase()));
-            return filtered
-        }
-        
         
         
         
@@ -221,7 +207,11 @@ document.addEventListener("DOMContentLoaded", () => {
         let wordInput = document.querySelector("#wordInput")
         
         wordInput.addEventListener("input", ()=>{
-            filterByword();
+            if (wordInput.value.trim() === "") {
+                globalFilter(); // torna alla visualizzazione con tutti i filtri
+            } else {
+                filterByword(); // cerca solo per parola
+            }
             
         })
         
@@ -247,14 +237,16 @@ document.addEventListener("DOMContentLoaded", () => {
         // filtro generico - concatenazione di quelli precedenti
         
         function globalFilter() {
+            if (wordInput.value.trim() !== "") {
+                return; // Se si sta usando la searchbar, ignora gli altri filtri
+            }
             console.log(" globalFilter CHIAMATA");
             let filterCategory = filterBycategory(data);
             let filterPrice = filterByPrice(filterCategory);
-            let filterMaterial = filterByMaterial(filterPrice);
-            let filterColor = filterByColor(filterMaterial);
+            let filterColor = filterByColor(filterPrice);
             showCards(filterColor);
         }
-        
+        globalFilter();
     })
 });
 
